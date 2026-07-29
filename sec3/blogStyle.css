@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+}
+.custom-div{
+    width: 30%;
+    background-color: antiquewhite;
+    display: inline-block;
+    margin-bottom: 2%;
+    border-style: solid;
+    border-color: blue;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 4%;
+    vertical-align:middle;
+}
+.custom-div p {
+ text-align: justify;
+ padding: 2%;
+}
+.marginlr{
+    margin: 0% 5%;
+}
+.custom-div a{
+    background-color: blueviolet;
+    padding: 5%;
+    display: inline-block;
+    margin: 5%;
+}
