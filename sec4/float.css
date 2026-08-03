@@ -1,0 +1,68 @@
+/*reset*/
+*{
+    padding: 0%;
+    margin: 0%;
+
+}
+/*global*/
+.text-section{
+    text-align: center;
+    background-color: rgb(196, 196, 196);
+    
+}
+.section-in{
+    width: 80%;
+    margin: auto;
+}
+h3{
+    padding-bottom: 3%;
+}
+.circle-icon{
+    border-radius: 50%;
+    height: 20px;
+    width: 20px;
+    padding: 3%;
+    border: solid rgb(214, 145, 16) 1px;
+    color: rgb(214, 145, 16);
+
+}
+ul{
+    color: white;
+
+}
+.ul-float{
+    float: right;
+    display: inline;
+}
+/*custom*/
+nav{
+    background-color: black;
+    padding: 1% 0%;
+    
+}
+.nav-in{
+    width: 80%;
+    margin: auto;
+}
+.a-color{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.custom-div{
+    width: 33%;
+    margin: 4% 0% ;
+ float: left;
+}
+.hr-t{
+    width: 10%;
+    border: rgb(214, 145, 16) solid 2px ;
+    margin: 2% auto;
+}
+.p-color{
+    color: gray;
+}
+.clear{
+    clear: both;
+}
