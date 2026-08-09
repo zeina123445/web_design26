@@ -1,0 +1,132 @@
+/*reset*/
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif
+}
+/*global*/
+.text-section{
+    
+}
+input{
+    width: 99%;
+}
+.section-in{
+    width: 80%;
+    margin: auto;
+    
+}
+h1{
+    padding-top: 3%;
+}
+h3{
+    padding-bottom: 3%;
+}
+
+.ul-float{
+    float: right;
+    display: inline;
+}
+.p-color{
+    color: gray;
+}
+.padding-top-bottom{
+    padding: 6% 0%;
+}
+.white-c{
+    color: white;
+}
+.orange-c{
+    color: rgb(241, 143, 15) ;
+}
+.font-s{
+    font-size: 9px;
+}
+.font-big{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.font-size{
+    font-size: 50px;
+}
+.font-weight{
+    font-weight:lighter;
+}
+.captilaize{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2% 0%;
+}
+/*custom*/
+nav{
+    background-color: black;
+    padding: 1% 0%;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.a-color{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    
+}
+.custom-div{
+    width: 45%;
+    margin: 4% 0% ;
+    float: left;
+    
+    
+}
+.custom-div2{
+    width: 40%;
+    margin: 4% 0% ;
+   float: right;
+   background-color: white;
+   margin-top: 10%; 
+}
+.hr-t{
+    width: 15%;
+    border: rgb(241, 143, 15) solid 2px ;
+   /* margin: 2% auto;*/
+}
+.hr-p{
+    width: 15%;
+    border: white solid 1px ;
+   /* margin: 2% auto;*/
+}
+
+
+.inline-b{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    padding-top: 1%;
+    font-size: 9px;
+}
+.bg-img{
+     margin-top: 0%;
+     background-image: url(file:///D:/Front/nti/web_design26/task4/images/image1.webp);
+     height: 400px; 
+     background-repeat: no-repeat;
+    /* cover , containe ==> search */
+     background-size: 100% 100%;
+    
+}
+.overlay{
+    background-color: #0000007a;
+}
+.b-ground{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+}
+.btn-transparent{
+    margin: 2% 0%;
+    background: transparent;
+    border: 2px solid;
+    padding: 2% 3.5%;
+    font-size: 10px;
+}
