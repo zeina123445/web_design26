@@ -8,7 +8,8 @@
 .text-section{
     
 }
-input{
+
+input{                                 
     width: 99%;
 }
 .section-in{
@@ -39,15 +40,16 @@ h3{
 .orange-c{
     color: rgb(241, 143, 15) ;
 }
+
 .font-s{
-    font-size: 9px;
+    font-size: 11px;
 }
 .font-big{
-    font-size: 18px;
+    font-size: 24px;
     text-transform: uppercase;
 }
 .font-size{
-    font-size: 50px;
+    font-size: 60px;
 }
 .font-weight{
     font-weight:lighter;
@@ -56,6 +58,11 @@ h3{
     text-transform: capitalize;
     text-align: center;
     padding: 2% 0%;
+}
+.back-color{
+    background-color: rgb(162, 162, 162);
+    height: 340px;
+    padding-top: 13%;
 }
 /*custom*/
 nav{
@@ -70,22 +77,23 @@ nav{
 .a-color{
     color: white;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 29px;
     
 }
 .custom-div{
-    width: 45%;
-    margin: 4% 0% ;
+    width: 30%;
+/*  margin: 1% 0% ;*/
     float: left;
     
     
 }
 .custom-div2{
-    width: 40%;
-    margin: 4% 0% ;
+    width: 25%;
+   /* margin: 4% 0% ;*/
    float: right;
    background-color: white;
-   margin-top: 10%; 
+   margin-top: 2%; 
+   
 }
 .hr-t{
     width: 15%;
@@ -104,13 +112,13 @@ nav{
     text-decoration: none;
     color: white;
     margin-right: 15px;
-    padding-top: 1%;
-    font-size: 9px;
+    padding-top: 2%;
+    font-size: 13px;
 }
 .bg-img{
      margin-top: 0%;
      background-image: url(file:///D:/Front/nti/web_design26/task4/images/image1.webp);
-     height: 400px; 
+     height: 430px; 
      background-repeat: no-repeat;
     /* cover , containe ==> search */
      background-size: 100% 100%;
@@ -122,6 +130,7 @@ nav{
 .b-ground{
     background-color: rgb(244, 244, 244);
     width: 100%;
+    padding: 3% 0%;
 }
 .btn-transparent{
     margin: 2% 0%;
@@ -129,4 +138,66 @@ nav{
     border: 2px solid;
     padding: 2% 3.5%;
     font-size: 10px;
+    cursor: pointer;
+}
+ 
+.form1 input[type=submit]{
+        color: white;
+    background-color: rgb(241, 143, 15);
+    border: none;
+    padding: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    border-style:hidden;
+    border-bottom: solid  rgb(232, 231, 231);
+    border-width: 2px;
+    padding: 3%;
+    width: 95%;
+    margin-bottom: 4%;    
+}
+.body-form{
+    width: 80%;
+    margin: auto;
+    padding: 7% 0%;
+}
+.first2{
+   display: inline-block;
+   width: 20%;
+   
+}
+.second2{
+   display: inline-block;
+   width: 50%;
+}
+.third2{
+   display: inline-block;
+   width: 25%;
+   padding-left: 3.5%;
+   
+    -webkit-box-reflect: below 0px
+        linear-gradient(transparent, rgba(255, 255, 255, 0.4));
+        vertical-align: top;
+}
+.tab{
+    padding: 4% 0%;
+    width: 50%;
+    border: black 2px solid;
+}
+.list2{
+    list-style: none;
+   
+}
+.list2 li{
+ background-color: black;
+ padding: 8% 0%;
+}
+.list2 input[type="submit"] {
+    text-decoration: none;
+    border: none;
+    background: none;
+     cursor: pointer;
+    color: white;
 }
