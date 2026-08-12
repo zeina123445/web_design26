@@ -32,6 +32,13 @@ h3{
 .p-color{
     color: gray;
 }
+.o-bgc{
+    background-color:rgb(241, 143, 15) ;
+}
+.bo-color{
+    border-bottom:rgb(241, 143, 15) solid ;
+    border: solid 2px;
+}
 .padding-top-bottom{
     padding: 6% 0%;
 }
@@ -261,13 +268,19 @@ button:hover{
 .text-card4{
     text-align: center;
     margin-bottom: 2%;
+    margin-top: -5%;
 }
 .hr-seconary{
     margin: 2% auto;
 }
-li {
+.sec4 li {
     text-align: center;
     border: solid 1px white;
+   
+}
+.c-li{
+     color: gray;
+    background-color: white;
 }
 .black-color{
     background-color: black;
