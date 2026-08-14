@@ -6,9 +6,6 @@
 
 }
 /*global*/
-.text-section{
-    
-}
 
 input{                                 
     width: 99%;
@@ -284,4 +281,31 @@ button:hover{
 }
 .black-color{
     background-color: black;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+}
+.center{
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: -5%;
+}
+.gr-card{
+    background-color: rgb(209, 206, 206);
+    border-radius: 2%;
+    padding: 3% 2%;
+    border-style;
+}
+.img5{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.div-beside{
+    display: inline-block;
+
 }
