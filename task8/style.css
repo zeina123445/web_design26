@@ -1,0 +1,25 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* global style */
+.container{
+    width: 80%;
+    margin: auto;
+}
+.padding-top-bottom{
+    padding: 5% 0%;
+}
+.bg-light{
+    background-color: #eee;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* custom style */
