@@ -161,7 +161,7 @@ nav{
     cursor: pointer;
 }
 
-input[type=text], input[type=email], input[type=password]{
+input[type=text], input[type=email], input[type=password],input[type=textarea]{
     border-style:hidden;
     border-bottom: solid  rgb(232, 231, 231);
     border-width: 2px;
@@ -290,7 +290,7 @@ button:hover{
 .center{
     text-align: center;
     padding-bottom: 3%;
-    margin-top: -5%;
+    margin-top: -7%;
 }
 .gr-card{
     background-color: rgb(209, 206, 206);
@@ -308,4 +308,28 @@ button:hover{
 .div-beside{
     display: inline-block;
 
+}
+.custom-form{
+    width: 45%;
+   /* margin: 4% 0% ;*/
+   float: left;
+   background-color: white;
+   margin-top: 2%; 
+   
+}
+
+textarea{
+     border-style:hidden;
+    border-bottom: solid  rgb(232, 231, 231);
+    border-width: 2px;
+    float: right;
+        width: 45%;
+    padding-bottom: 12%;
+    margin-top: 3%;
+}
+.btn{
+    width: 20%;
+    background-color: rgb(241, 143, 15);
+    color: white;
+    margin: 6% 0% ;
 }
