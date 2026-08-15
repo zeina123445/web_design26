@@ -1,0 +1,287 @@
+/*reset*/
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+/*global*/
+.text-section{
+    
+}
+
+input{                                 
+    width: 99%;
+}
+.section-in{
+    width: 80%;
+    margin: auto;
+    
+}
+h1{
+    padding-top: 3%;
+}
+h3{
+    padding-bottom: 3%;
+}
+
+.ul-float{
+    float: right;
+    display: inline;
+}
+.p-color{
+    color: gray;
+}
+.o-bgc{
+    background-color:rgb(241, 143, 15) ;
+}
+.bo-color{
+    border-bottom:rgb(241, 143, 15) solid ;
+    border: solid 2px;
+}
+.padding-top-bottom{
+    padding: 6% 0%;
+}
+.white-c{
+    color: white;
+}
+.orange-c{
+    color: rgb(241, 143, 15) ;
+}
+
+.font-s{
+    font-size: 11px;
+}
+.font-big{
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.font-size{
+    font-size: 60px;
+}
+.font-weight{
+    font-weight:lighter;
+}
+.captilaize{
+    text-transform: capitalize;
+    text-align: center;
+    padding: 2% 0%;
+}
+.back-gcolor{
+    background-color: rgb(162, 162, 162);
+    height: 340px;
+    padding-top: 13%;
+}
+.back-wcolor{
+    background-color: white;
+    height: 340px;
+    padding-top: 13%;
+}
+.hr-t{
+    width: 6%;
+    border: rgb(241, 143, 15) solid 1px ;
+   /* margin: 2% auto;*/
+}
+.hr-p{
+    width: 15%;
+    border: white solid 1px ;
+   /* margin: 2% auto;*/
+}
+/*custom*/
+nav{
+    background-color: black;
+    padding: 1% 0%;
+    
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.a-color{
+    color: white;
+    text-decoration: none;
+    font-size: 29px;
+    
+}
+.custom-div{
+    width: 30%;
+/*  margin: 1% 0% ;*/
+    float: left;
+    
+    
+}
+.custom-div2{
+    width: 25%;
+   /* margin: 4% 0% ;*/
+   float: right;
+   background-color: white;
+   margin-top: 2%; 
+   
+}
+
+
+
+.inline-b{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    margin-right: 15px;
+    padding-top: 2%;
+    font-size: 13px;
+}
+.bg-img{
+     margin-top: 0%;
+     background-image: url(file:///D:/Front/nti/web_design26/task4/images/image1.webp);
+     height: 430px; 
+     background-repeat: no-repeat;
+    /* cover , containe ==> search */
+     background-size: 100% 100%;
+    
+}
+.overlay{
+    background-color: #0000007a;
+}
+.b-ground{
+    background-color: rgb(244, 244, 244);
+    width: 100%;
+    padding: 3% 0%;
+}
+.btn-transparent{
+    margin: 2% 0%;
+    background: transparent;
+    border: 2px solid;
+    padding: 2% 3.5%;
+    font-size: 10px;
+    cursor: pointer;
+}
+ 
+.form1 input[type=submit]{
+        color: white;
+    background-color: rgb(241, 143, 15);
+    border: none;
+    padding: 4%;
+    width: 100%;
+    cursor: pointer;
+}
+
+input[type=text], input[type=email], input[type=password]{
+    border-style:hidden;
+    border-bottom: solid  rgb(232, 231, 231);
+    border-width: 2px;
+    padding: 3%;
+    width: 95%;
+    margin-bottom: 4%;    
+}
+.body-form{
+    width: 80%;
+    margin: auto;
+    padding: 7% 0%;
+}
+.first2{
+   display: inline-block;
+   width: 20%;
+   
+}
+.second2{
+   display: inline-block;
+   width: 50%;
+}
+.third2{
+   display: inline-block;
+   width: 25%;
+   padding-left: 3.5%;
+   
+    -webkit-box-reflect: below 0px
+        linear-gradient(transparent, rgba(255, 255, 255, 0.4));
+        vertical-align: top;
+}
+.tab{
+    padding: 4% 0%;
+    width: 50%;
+    border: black 2px solid;
+}
+ul {
+    list-style: none;
+   
+}
+.list2 li{
+ background-color: black;
+ padding: 11% 0%;
+}
+.list2 input[type="submit"] {
+    text-decoration: none;
+    border: none;
+    background: none;
+     cursor: pointer;
+    color: white;
+}
+.tab:hover{
+    background-color: rgb(241, 143, 15);
+}
+button:hover{
+    background-color: rgb(241, 143, 15);
+}
+.first3{
+    
+    margin-top: -7%;
+    width: 30%;
+    margin-right: 29%;
+    display: inline-block;
+}
+.second3{
+    width: 40%;
+    display: inline-block;
+    margin-top: -9%;
+}
+.pmargin{
+    margin-top: 2%;
+}
+.h3padding{
+    padding-top: 4%;
+}
+.circle{
+    width: 24px;
+    height: 24px;
+    border: solid rgb(241, 143, 15) 2px;
+    border-radius: 50%;
+    color: rgb(241, 143, 15);
+    padding-top: 12%;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.icon{
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 8%;
+}
+.icon-bro{
+   width: 80%;
+   display: inline-block;
+   margin-top: 4%;
+}
+.sec4{
+    width: 33%;
+    display: inline-block;
+    margin-left: 0%;
+}
+.text-card4{
+    text-align: center;
+    margin-bottom: 2%;
+    margin-top: -5%;
+}
+.hr-seconary{
+    margin: 2% auto;
+}
+.sec4 li {
+    text-align: center;
+    border: solid 1px white;
+   
+}
+.c-li{
+     color: gray;
+    background-color: white;
+}
+.black-color{
+    background-color: black;
+}
