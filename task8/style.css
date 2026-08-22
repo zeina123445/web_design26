@@ -1,0 +1,43 @@
+/* Reset Style */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+}
+
+/* global style */
+.container{
+    width: 90%;
+    margin: auto;
+}
+.padding-top-bottom{
+    padding: 5% 0%;
+}
+.bg-light{
+    background-color: #eee;
+}
+.d-flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.logo{
+    display: inline;
+    width: 30%;
+}
+nav{
+    display: inline;
+    width: 30%;
+    float: right;
+}
+a{
+    text-decoration: none;
+}
+/* custom style */
+
+.gray-c{
+    color: rgb(236, 236, 236);
+}
+.f-color{
+    color: #285E67;
+}

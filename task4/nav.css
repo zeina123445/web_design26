@@ -6,9 +6,6 @@
 
 }
 /*global*/
-.text-section{
-    
-}
 
 input{                                 
     width: 99%;
@@ -87,6 +84,10 @@ h3{
     border: white solid 1px ;
    /* margin: 2% auto;*/
 }
+.semi-padding-top-bottom{
+    padding: 2% 0%;
+}
+
 /*custom*/
 nav{
     background-color: black;
@@ -164,7 +165,7 @@ nav{
     cursor: pointer;
 }
 
-input[type=text], input[type=email], input[type=password]{
+input[type=text], input[type=email], input[type=password],input[type=textarea]{
     border-style:hidden;
     border-bottom: solid  rgb(232, 231, 231);
     border-width: 2px;
@@ -261,14 +262,15 @@ button:hover{
    margin-top: 4%;
 }
 .sec4{
-    width: 33%;
+    width: 28%;
     display: inline-block;
-    margin-left: 0%;
+    margin-right: 4%;
+    margin-bottom: 4%;
 }
 .text-card4{
     text-align: center;
     margin-bottom: 2%;
-    margin-top: -5%;
+    margin-top: -9%;
 }
 .hr-seconary{
     margin: 2% auto;
@@ -284,4 +286,55 @@ button:hover{
 }
 .black-color{
     background-color: black;
+}
+.card{
+    width: 30%;
+    display: inline-block;
+    margin-right: 3%;
+}
+.center{
+    text-align: center;
+    padding-bottom: 3%;
+    margin-top: -7%;
+}
+.gr-card{
+    background-color: rgb(209, 206, 206);
+    border-radius: 2%;
+    padding: 3% 2%;
+    border-style;
+}
+.img5{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 2%;
+}
+.div-beside{
+    display: inline-block;
+
+}
+.custom-form{
+    width: 45%;
+   /* margin: 4% 0% ;*/
+   float: left;
+   background-color: white;
+   margin-top: 2%; 
+   
+}
+
+textarea{
+     border-style:hidden;
+    border-bottom: solid  rgb(232, 231, 231);
+    border-width: 2px;
+    float: right;
+        width: 45%;
+    padding-bottom: 12%;
+    margin-top: 3%;
+}
+.btn{
+    width: 20%;
+    background-color: rgb(241, 143, 15);
+    color: white;
+    margin: 6% 0% ;
 }

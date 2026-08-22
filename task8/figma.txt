@@ -1,0 +1,5 @@
+1st images: radius: 16px,#285E67
+2: #F4F4F4, text/text-invert, radius: 12px
+3: #0000004A ,radius: 16px ,#285E67
+4: #EBBFAE
+6:#2B2B2B, fontPoppins
