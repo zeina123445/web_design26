@@ -1,0 +1,6 @@
+@media(min-width: 768px){
+    .bg-img{
+        background-size: 130%;
+        height: 940px;
+    }
+}
