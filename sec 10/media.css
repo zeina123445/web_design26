@@ -4,3 +4,9 @@
         height: 940px;
     }
 }
+
+/* @media (min-width: 900px) {
+    .container-fluid {
+        height: 900px;
+    }
+} */

@@ -103,70 +103,58 @@
 <div class="container"> 
         <!--  SHOP  -->
 
-        <section id="products" class="products">
+        <section id="products" class="products row mt-0 mt-md-5">
 
             <div class="section-title">
                 <p><i class="fa-solid fa-paw"></i>Shop</p>
             </div>
-          <hr>
-            <div class="products-header">
+        <hr>
+        <div class="border-top border-end border-bottom border-gray border-2 ">
+            <div class="products-header d-flex justify-content-between align-items-center mb-3 mt-3">
 
                 <h2>
                     Featured Products
                 </h2>
 
-                <input
-                    type="search"
-                    placeholder="Search"
-                >
+                <div class="input-group w-25">
+                   
+                <input type="search" class="form-control me-4 " placeholder="🔍Search">
+
+                
+            </div>
 
             </div>
 
 
-            <div class="product-categories">
+            <div class="product-categories w-50  mx-auto mb-3 d-flex justify-content-between text-align-center">
 
-                <button class="active">
-                    Featured
-                </button>
-
-                <button>
-                    Cat
-                </button>
-
-                <button>
-                    Dogs
-                </button>
-
-                <button>
-                    Fish
-                </button>
-
-                <button>
-                    Birds
-                </button>
-
+                <button type="button" class="btn text-gray btn-white fs-3 w-10">Random</button>
+                <button type="button" class="btn text-gray btn-white fs-3 w-10">Cat</button>
+                <button type="button" class="btn text-gray btn-white fs-3 w-10">Dogs</button>
+                <button type="button" class="btn text-gray btn-white fs-3 w-10">Fish</button>
+                <button type="button" class="btn text-gray btn-white fs-3 w-10">Birds</button>
             </div>
 
 
-            <div class="product-list">
+            <div class="product-list row mb-3">
 
-                <div class="product">
-                    <img
-                        src="images/product-1.jpg"
+                <div class="product  col-4">
+                    <img class="col-3 w-100"
+                        src="images/Product Card.png"
                         alt="Cat food"
                     >
                 </div>
 
-                <div class="product">
-                    <img
-                        src="images/product-2.jpg"
+                <div class="product col-4">
+                    <img class="col-3 w-100"
+                        src="images/Product Card (1).png"
                         alt="Pet food"
                     >
                 </div>
 
-                <div class="product">
-                    <img
-                        src="images/product-3.jpg"
+                <div class="product col-4">
+                    <img class="col-3 w-100"
+                        src="images/Product Card (2).png"
                         alt="Cat food"
                     >
                 </div>
@@ -174,12 +162,12 @@
             </div>
 
 
-            <div class="products-link">
-                <a href="#">
-                    View All Products
+            <div class=" d-flex ">
+                <a href="#" class="text-decoration-none text-black ms-auto me-4">
+                    View More >>>
                 </a>
             </div>
-
+        </div>
         </section>
 
 
@@ -188,83 +176,84 @@
         <section id="services" class="services">
 
             <div class="section-title">
-                <p>Our Services</p>
+                <p>Services</p>
             </div>
 
+          <hr> 
+          <div class="border-top border-end border-bottom border-gray border-2 ">
+          <div class="row d-flex justify-content-between">    
+            <div class="services-grid row d-flex justify-content-between  col-8">
 
-            <div class="services-grid">
+                <div class="mb-3 service service-grooming col-6 position-relative">
 
-                <div class="service service-grooming">
-
-                    <img
-                        src="images/grooming.jpg"
+                    <img class="col-5 w-100"
+                        src="images/img1.png"
                         alt="Pet grooming"
                     >
 
-                    <h3>
+                    <h3 class="position-absolute top-50 start-50 translate-middle text-center text-white">
                         Grooming
                     </h3>
 
                 </div>
 
 
-                <div class="service service-sitting">
+                <div class="service service-sitting col-6 position-relative">
 
-                    <img
-                        src="images/pet-sitting.jpg"
+                     <img class="col-5 w-100"
+                        src="images/image 2.png"
+                        alt="Pet training"
+                    >
+                    <h3 class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                        Boarding
+                    </h3>
+
+                </div>
+
+
+                <div class="service service-training col-6 position-relative">
+
+                    <img class="col-5 w-100" style="height: 284px;"
+                        src="images/img2.png"
                         alt="Pet sitting"
                     >
 
-                    <h3>
-                        Pet Sitting
+                    <h3 class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                        Veterinary
                     </h3>
 
                 </div>
 
 
-                <div class="service service-training">
+                <div class="service service-walking col-6 position-relative">
 
-                    <img
-                        src="images/training.jpg"
-                        alt="Pet training"
-                    >
-
-                    <h3>
-                        Pet Training
-                    </h3>
-
-                </div>
-
-
-                <div class="service service-walking">
-
-                    <img
-                        src="images/walking.jpg"
+                    <img class="col-5 w-100"
+                        src="images/image 1.png"
                         alt="Dog walking"
                     >
 
-                    <h3>
-                        Pet Walking
+                    <h3 class="position-absolute top-50 start-50 translate-middle text-center text-white">
+                        Training
                     </h3>
 
                 </div>
 
+            </div>
+                <div class="service service-adoption col-4 position-relative">
 
-                <div class="service service-adoption">
-
-                    <img
-                        src="images/adoption.jpg"
+                    <img class="col-6 w-100" style="height: 583px;"
+                        src="images/Weestar_a_pale_colorful_gradient_Chupa_Chup_shaped_pet_house_by_bfa585dd-3006-42f7-b26f-5708d61a3b62.png"
                         alt="Pet adoption"
                     >
 
-                    <h3>
+                    <h3 class="position-absolute top-50 start-50 translate-middle text-center text-white">
                         Adoption
                     </h3>
 
                 </div>
 
             </div>
-
+          </div>
         </section>
 
 
