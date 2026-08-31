@@ -11,11 +11,7 @@ header{
     margin-top: 2%;
 }
 .container{
-<<<<<<< HEAD
-    width: 90%;
-=======
     width: 1300px;
->>>>>>> 6fac30603fafd6e690c67f0bac5fab14a50e0252
     margin: auto;
 }
 .padding-top-bottom{
@@ -28,36 +24,19 @@ header{
     display: flex;
     flex-wrap: wrap;
 }
-<<<<<<< HEAD
-.logo{
-    display: inline;
-=======
 .logo,.footer-left{
     display: inline-block;
->>>>>>> 6fac30603fafd6e690c67f0bac5fab14a50e0252
     width: 30%;
 }
 nav{
     display: inline;
     width: 30%;
     float: right;
-<<<<<<< HEAD
-=======
     padding-left: 6%;
->>>>>>> 6fac30603fafd6e690c67f0bac5fab14a50e0252
 }
 a{
     text-decoration: none;
 }
-<<<<<<< HEAD
-/* custom style */
-
-.gray-c{
-    color: rgb(236, 236, 236);
-}
-.f-color{
-    color: #285E67;
-=======
 .gray-c{
     color: #F4F4F4;
 }
@@ -316,5 +295,4 @@ footer{
 }
 .footer-nav a{
     color: white;
->>>>>>> 6fac30603fafd6e690c67f0bac5fab14a50e0252
 }
