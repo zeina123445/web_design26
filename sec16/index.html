@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row gy-3 my-3">
+            <div class="col-12">
+                <button class="btn btn-dark" onclick="handlefilter('furniture')">Furniture</button>
+                <button class="btn btn-dark" onclick="handlefilter('electronics')">Electronics</button>
+            </div>
+            <div class="col-4 furniture filterCategory">
+                <div class="card ">
+                    <div class="card-body">
+                        <h4>Furniture</h4>
+                    </div>
+                </div>
+            </div>
+             <div class="col-4 furniture filterCategory">
+                <div class="card ">
+                    <div class="card-body">
+                        <h4>Furniture</h4>
+                    </div>
+                </div>
+            </div>
+             <div class="col-4 electronics filterCategory">
+                <div class="card ">
+                    <div class="card-body">
+                        <h4>Electronics</h4>
+                    </div>
+                </div>
+            </div>
+             <div class="col-4 electronics filterCategory">
+                <div class="card ">
+                    <div class="card-body">
+                        <h4>Electronics</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <form class="row gy-3 my-3" id="registerForm" autocomplete="off">
+            <div class="col-12 col-md-4">
+                <input type="text"  class="form-control" id="userName" placeholder="enter your name">
+                <small class="text-danger"></small>
+            </div>
+             <div class="col-12 col-md-4">
+                <input type="text"  class="form-control" placeholder="enter your email"  id="userEmail">
+                <small class="text-danger"></small>
+            </div>
+             <div class="col-12 col-md-4">
+                <input type="text"  class="form-control" placeholder="enter your password" id="userPassword">
+                <small class="text-danger"></small>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-dark">Submit</button>
+            </div>
+        </form>
+    </div>
+
+<!-- //project -->
+
+         <div class="container">
+           <div class="row d-flex justify-content-between">
+            <div class="col-6 position-relative">
+                                <img class="" src="https://decorating-hq.com/wp-content/uploads/gold_living_room.jpg" class="w-100" alt="">
+            <p class="position-absolute top-0 start-0 ">shop now</p>
+            </div>
+           
+           
+            <div class="row  col-6 ">
+            <div class="col-12 position-relative">
+                                <img src="https://decorating-hq.com/wp-content/uploads/gold_living_room.jpg" class="w-100" alt="">
+
+            </div>
+            <div class="col-12 position-relative">
+                <img src="https://decorating-hq.com/wp-content/uploads/gold_living_room.jpg" class="w-100" alt="">
+            </div>
+        
+         </div>
+           </div>
+         </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="form.js"></script>
+</body>
+
+</html>
