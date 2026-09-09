@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Details</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/product.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="css/account.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/product.css">
+</head>
+
+<body>
+   
+    <!-- announcement -->
+    <div class="bg-light py-2 position-relative">
+        <div class="d-flex justify-content-center align-items-center gap-2 small">
+            <i class="bi bi-percent"></i>
+            <span>30% off storewide — Limited time!</span>
+            <a href="#" class="text-primary d-none d-sm-inline">
+                Shop Now →
+            </a>
+        </div>
+        <button class="btn position-absolute top-50 end-0 translate-middle-y me-2 border-0">
+            <i class="bi bi-x-lg"></i>
+        </button>
+
+    </div>
+
+  <!--  NAVBAR  -->
+
+    <nav class="navbar navbar-expand-lg bg-white">
+
+        <div class="container">
+
+            <!-- mobile + logo -->
+            <div class="d-flex align-items-center">
+
+                <!-- mobile menu button -->
+                <button class="navbar-toggler border-0 p-0 me-3 d-lg-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarContent">
+
+                    <span class="navbar-toggler-icon"></span>
+
+                </button>
+
+                <!-- Logo -->
+                <a class="navbar-brand fw-bold mb-0" href="#">
+                    VisioCreate
+                </a>
+
+            </div>
+
+            <!-- Navbar content -->
+
+            <div class="collapse navbar-collapse" id="navbarContent">
+
+                <!-- Links -->
+
+                <ul class="navbar-nav mx-auto gap-lg-4">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="Home.html">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Shop.html">
+                            Shop
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="Product.html">
+                            Product
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">
+                            Contact Us
+                        </a>
+                    </li>
+
+                </ul>
+
+
+                <!-- icons -->
+
+                <div class="d-flex align-items-center gap-3">
+
+                    <i class="bi bi-search fs-5"></i>
+
+                    <a href="signin.html" class="text-dark">
+                        <i class="bi bi-person-circle fs-5"></i>
+                    </a>
+
+
+
+                </div>
+
+            </div>
+            <div class="d-flex align-items-center gap-2">
+
+                <i class="bi bi-bag fs-5" role="button" data-bs-toggle="offcanvas" data-bs-target="#cartSidebar"></i>
+
+                <span class="badge rounded-pill bg-dark count">
+                    0
+                </span>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- sideBar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="cartSidebar">
+
+        <div class="offcanvas-header">
+            <h2 class="mb-0">Cart</h2>
+            <button class="btn" data-bs-dismiss="offcanvas">
+                <i class="bi bi-x-lg"></i>
+            </button>
+        </div>
+
+        <div class="offcanvas-body">
+            <!-- element1 -->
+            <!-- <div class="d-flex justify-content-between">
+                <div class="" style=" width: 14% !important;">
+                    <img src="images/shop_1.jpg" class="w-100" alt="">
+                </div>
+                <div class="d-flex flex-column">
+                    <h3>Tray Table</h3>
+                    <p>Color:Black</p>
+                    <div class="d-flex justify-content-around border rounded-2 gap-2">
+                    <small class="dec">-</small>
+                    <small class="num">0</small>
+                    <small class="inc">+</small>
+                    </div>
+
+                </div>
+            
+                <div>
+                    <p>$19.19</p>
+                    <button
+            class="btn ">
+            <i class="bi bi-x-lg"></i>
+        </button>
+                </div>
+            
+            </div>
+
+            <hr class="pt-2"> -->
+            <!-- element2 -->
+            <div class="d-flex justify-content-between ">
+                <div class="" style=" width: 14% !important;">
+                    <img src="images/shop_1.jpg" class="w-100" alt="">
+                </div>
+                <div class="d-flex flex-column">
+                    <h3>Tray Table</h3>
+                    <p>Color:Black</p>
+                    <div class="d-flex justify-content-around border rounded-2 gap-2">
+                        <small class="dec">-</small>
+                        <small class="num">0</small>
+                        <small class="inc">+</small>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p>$19.19</p>
+                    <button class="btn ">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <hr class="pt-2">
+            <!-- element3 -->
+            <div class="d-flex justify-content-between pt-3">
+                <div class="" style=" width: 14% !important;">
+                    <img src="images/shop_1.jpg" class="w-100" alt="">
+                </div>
+                <div class="d-flex flex-column">
+                    <h3>Tray Table</h3>
+                    <p>Color:Black</p>
+                    <div class="d-flex justify-content-around border rounded-2 gap-2">
+                        <small class="dec">-</small>
+                        <small class="num">0</small>
+                        <small class="inc">+</small>
+                    </div>
+
+                </div>
+
+                <div>
+                    <p>$19.19</p>
+                    <button class="btn ">
+                        <i class="bi bi-x-lg"></i>
+                    </button>
+                </div>
+
+            </div>
+
+            <hr class="pt-2 pb-5">
+
+
+            <div class="pt-5 d-flex justify-content-between">
+                <p>Subtotal</p>
+                <p>144.14$</p>
+            </div>
+            <hr>
+            <div class="pt-5 d-flex justify-content-between">
+                <p>total</p>
+                <p>244.14$</p>
+            </div>
+
+            <button class="btn btn-dark">Checkout</button>
+            <a href="#" class="text-black ">View Cart</a>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="container py-5">
+        <div class="row g-4">
+            <div class="col-12 col-lg-6">
+                <div class="position-relative">
+                    <span class="badge text-bg-light position-absolute top-0 start-0 m-2">
+                        NEW
+                    </span>
+                    <span class="badge bg-success position-absolute top-0 start-0 mt-5 ms-2">
+                        -50%
+                    </span>
+                    <img src="images/product11.jpg" alt="Table" class="img-fluid w-100 product-image">
+                </div>
+
+
+                <div class="row g-2 mt-2">
+                    <div class="col-4">
+                        <img src="images/product66.jpg  " alt="Product" class="img-fluid thumbnail">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="images/product77.jpg" alt="Product" class="img-fluid thumbnail">
+                    </div>
+
+                    <div class="col-4">
+                        <img src="images/product55.jpg" alt="Product" class="img-fluid thumbnail">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product Details -->
+
+            <!-- Product Images -->
+            <div class="col-12 col-lg-6">
+                <div class="small mb-1">
+                    ☆☆☆☆☆
+                    <span class="text-secondary">5.0</span>
+                </div>
+                <h1 class="h3 fw-bold">
+                    Tray Table
+                </h1>
+                <p class="text-secondary">
+                    Buy one or buy a few and make every space where you sit more convenient.
+                    Light and easy to move
+                    around with removable tray top,
+                    handy for serving snacks. </p>
+
+                <!-- TRAY TABLE -->
+                
+                    <div class="mb-3">
+                        <span class="fs-4 fw-bold">
+                            $199.00
+                        </span>
+
+                        <span class="text-secondary text-decoration-line-through ms-2">
+                            $400.00
+                        </span>
+                    </div>
+
+                    <div class="border-top border-bottom py-3 mb-3">
+                        <p class="small mb-2">
+                            Offer expires in
+                        </p>
+                        <div class="row text-center">
+                            <div class="col-3">
+                                <div id="days" class="fs-4 fw-bold">02</div>
+                                <small class="text-secondary">Days</small>
+                            </div>
+
+                            <div class="col-3">
+                                <div id="hours" class="fs-4 fw-bold">12</div>
+                                <small class="text-secondary">Hours</small>
+                            </div>
+
+                            <div class="col-3">
+                                <div id="minutes" class="fs-4 fw-bold">45</div>
+                                <small class="text-secondary">Minutes</small>
+                            </div>
+
+                            <div class="col-3">
+                                <div id="seconds" class="fs-4 fw-bold">05</div>
+                                <small class="text-secondary">Seconds</small>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            Measurements
+                        </h6>
+                        <p class="small text-secondary">
+                            17 1/2 × 20 5/8" </p>
+                    </div>
+
+
+                    <div class="mb-3">
+                        <h6 class="fw-bold">
+                            Choose Color
+                        </h6>
+                        <p class="small">
+                            Black </p>
+                        <div class="d-flex gap-2">
+                            <button class="color-box color-black"></button>
+                            <button class="color-box color-white"></button>
+                            <button class="color-box color-red"></button>
+                        </div>
+                    </div>
+
+
+                    <div class="row g-2 mb-2">
+                        <div class="col-12">
+                            <div class="d-flex gap-3 align-items-center">
+                                <div class="border rounded p-2 d-flex gap-3 align-items-center">
+                                    <button class="btn" id="minus">
+                                        -
+                                    </button>
+
+                                    <span id="count">
+                                        1
+                                    </span>
+
+                                    <button class="btn" id="plus">
+                                        +
+                                    </button>
+                                </div>
+
+
+                                <button id="wishlist" class="btn btn-outline-dark w-100">
+                                    ♡ Wishlist
+                                </button>
+                            </div>
+                        </div>
+
+
+                        <button id="addToCart" class="addToCartBtn btn btn-dark w-100 mb-3">
+                            Add To Cart
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--نص بيدج من تحت  -->
+            <div class="row mt-5">
+                <div class="col-12">
+                    <ul class="nav border-bottom mb-4">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark active" href="#">
+                                Additional Info
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-secondary" href="#">
+                                Questions
+                            </a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark fw-bold" href="#">
+                                Reviews
+                            </a>
+                        </li>
+                    </ul>
+
+
+
+                    <div>
+                        <h5 class="fw-bold">
+                            Customer Reviews
+                        </h5>
+
+                        <div class="mb-3">
+                            ☆☆☆☆☆
+                            <span class="small text-secondary">
+                                5.0
+                            </span>
+                        </div>
+
+
+
+                        <div class="border rounded p-2 mb-4">
+                            <div class="d-flex justify-content-between align-items-center">
+                                <input type="text" id="reviewInput" placeholder=" Write a review" class="form-control">
+                                <button id="writeReview" class="btn btn-dark btn-sm">
+                                    Write Review
+                                </button>
+                            </div>
+                        </div>
+
+
+
+                        <div class="d-flex justify-content-between align-items-center mb-3">
+                            <h6 class="fw-bold mb-0">
+                                11 Reviews
+                            </h6>
+                            <button class="btn btn-outline-secondary btn-sm">
+                                Newest
+                            </button>
+                        </div>
+
+                        <div class="reviews-container">
+                            <!-- Review 1 -->
+                            <div class="review d-flex gap-3 py-3 border-bottom">
+                                <div class="review-photo">
+                                    <img src="images/product.PROF.jpg" alt="">
+                                </div>
+
+                                <div>
+                                    <h6 class="fw-bold mb-1">
+                                        Sofia Harris
+                                    </h6>
+                                    <div class="small">
+                                        ☆☆☆☆☆
+                                    </div>
+                                    <p class="small text-secondary mt-2 mb-1">
+                                        I bought this product and I really love it.
+                                        The quality is amazing and it looks great in my room.
+                                    </p>
+
+                                    <small class="text-secondary">
+                                        1 month ago · ; Reply
+                                    </small>
+                                </div>
+                            </div>
+
+
+                            <!-- Review 2 -->
+                            <div class="review d-flex gap-3 py-3 border-bottom">
+                                <div class="review-photo">
+                                    <img src="images/product.PROF.jpg" alt="">
+                                </div>
+
+                                <div>
+                                    <h6 class="fw-bold mb-1">
+                                        Sofia Harris
+                                    </h6>
+                                    <div class="small">
+                                        ☆☆☆☆☆
+                                    </div>
+                                    <p class="small text-secondary mt-2 mb-1">
+                                        I bought this product and I really love it.
+                                        The quality is amazing and it looks great in my room.
+                                    </p>
+
+                                    <small class="text-secondary">
+                                        1 month ago · Reply
+                                    </small>
+                                </div>
+                            </div>
+
+
+                            <!-- Review 3 -->
+                            <div class="review d-flex gap-3 py-3 border-bottom">
+                                <div class="review-photo">
+                                    <img src="images/product.PROF.jpg" alt="">
+                                </div>
+
+                                <div>
+                                    <h6 class="fw-bold mb-1">
+                                        Sofia Harris
+                                    </h6>
+                                    <div class="small">
+                                        ☆☆☆☆☆
+                                    </div>
+                                    <p class="small text-secondary mt-2 mb-1">
+                                        I bought this product and I really love it.
+                                        The quality is amazing and it looks great in my room.
+                                    </p>
+
+                                    <small class="text-secondary">
+                                        1 month ago · Reply
+                                    </small>
+                                </div>
+                            </div>
+
+
+                            <!-- Review 4 -->
+                            <div class="review d-flex gap-3 py-3 border-bottom">
+                                <div class="review-photo">
+                                    <img src="images/product.PROF.jpg" alt="">
+                                </div>
+
+                                <div>
+                                    <h6 class="fw-bold mb-1">
+                                        Sofia Harris
+                                    </h6>
+                                    <div class="small">
+                                        ☆☆☆☆☆
+                                    </div>
+                                    <p class="small text-secondary mt-2 mb-1">
+                                        I bought this product and I really love it.
+                                        The quality is amazing and it looks great in my room.
+                                    </p>
+
+                                    <small class="text-secondary">
+                                        1 month ago · Reply
+                                    </small>
+                                </div>
+                            </div>
+
+
+                            <!-- Review 5 -->
+                            <div class="review d-flex gap-3 py-3 border-bottom">
+                                <div class="review-photo">
+                                    <img src="images/product.PROF.jpg" alt="">
+                                </div>
+
+                                <div>
+                                    <h6 class="fw-bold mb-1">
+                                        Sofia Harris
+                                    </h6>
+                                    <div class="small">
+                                        ☆☆☆☆☆
+                                    </div>
+                                    <p class="small text-secondary mt-2 mb-1">
+                                        I bought this product and I really love it.
+                                        The quality is amazing and it looks great in my room.
+                                    </p>
+
+                                    <small class="text-secondary">
+                                        1 month ago · Reply
+                                    </small>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="text-center mt-4">
+                            <button class="btn btn-outline-dark btn-sm">
+                                Load more
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="bg-light text-dark ">
+
+        <div class="position-relative">
+            <img class="w-100  newsletter-img "
+                src="https://th.bing.com/th/id/OIP.rWS80PDQvqjM2bb_AQ7ALQHaLH?r=0&o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3"
+                alt="furniture">
+            <div class="newsletter-content text-center">
+                <h3>Join our newsletter</h3>
+                <p>Signup for deals, new products and promotions</p>
+
+                <div class="mx-auto" style="max-width: 400px;">
+                    <form id="signupForm">
+                        <div class="d-flex align-items-center gap-2">
+                            <input class="form-control email transparent" type="email" id="emailUser"
+                                placeholder="Email address">
+
+                            <button type="submit" class="btn  transparent  text-nowrap">Signup</button>
+                        </div>
+                        <hr class="mt-0 mb-3">
+                        <small class="text-danger"></small>
+                    </form>
+                </div>
+            </div>
+
+            <!-- Main footer -->
+            <div class="bg-dark text-white pt-5 pb-4">
+                <div class="container">
+
+                    <div class="row align-items-center text-center text-md-start">
+                        <!-- Logo -->
+                        <div class="d-flex col-12 col-md-4 mb-4 mb-md-0
+        flex-column flex-md-row align-items-md-center">
+                            <h3 class="mb-1 mb-md-0">VisioCreate</h3>
+                            <hr class="footer-line">
+                            <p class="fs-6 text-white mb-0">Gift&Decoration Store</p>
+                        </div>
+
+                        <!-- Nav links -->
+                        <div class="col-12 col-md-8 mb-4 mb-md-0">
+                            <ul
+                                class="d-flex flex-column flex-md-row justify-content-md-end gap-2 gap-md-4 list-unstyled mb-0">
+                                <li class="nav-item"><a class="nav-link active px-0" href="#">Home</a></li>
+                                <li class="nav-item"><a class="nav-link px-0" href="#">Shop</a></li>
+                                <li class="nav-item"><a class="nav-link px-0" href="#">Product</a></li>
+                                <li class="nav-item"><a class="nav-link px-0" href="#">Blog</a></li>
+                                <li class="nav-item"><a class="nav-link px-0" href="#">Contact Us</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <hr>
+                    <div class="row align-items-center text-center text-md-start gy-3">
+
+                        <div
+                            class="col-12 col-md-4 order-1 order-md-3 d-flex  justify-content-center justify-content-md-end gap-3">
+                            <i class="bi bi-instagram "></i>
+                            <i class="bi bi-facebook "></i>
+                            <i class="bi bi-youtube "></i>
+                        </div>
+
+                        <div class="col-12 col-md-4 order-2 order-md-2 d-flex justify-content-center gap-4">
+                            <a class="nav-link px-0 fw-bold" href="#">Privacy Policy</a>
+                            <a class="nav-link px-0 fw-bold" href="#">Terms of Use</a>
+                        </div>
+
+                        <div class="col-12 col-md-4 order-3 order-md-1 text-white-50">
+                            <p class="mb-0">Copyright © 2024 VisioCreate. All rights reserved</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="js/product.js"></script>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>
