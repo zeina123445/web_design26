@@ -1,0 +1,51 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+
+.img-footer{
+        height: 312px ;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.top-50{
+    top:29% !important;
+}
+.signup{
+        border:  transparent;
+}
+.email{
+    background-color: transparent;
+    border :none;
+}
+
+
+.block{
+    margin-right: 22% !important;
+}
+
+.footer-line {
+    width: 1px;
+    height: 30px;
+    margin: 0 15px;
+    border: 0;
+    border-left: 1px solid white;
+}
+
+/* mobile */
+@media (max-width: 767px) {
+
+    .footer-line {
+        width: 30%;
+        height: 1px;
+        margin: 10px auto;
+        border-left: none;
+        border-top: 1px solid white;
+        text-align: center;
+    }
+
+}
+

@@ -1,0 +1,14 @@
+/* Reset style */
+/* Global style */
+/* Custome style */
+.bg-img {
+    background-image: url(../images/shop_bg.jpg);
+    background-size: 140% 150%;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding: 100px;
+
+}
+.fs-small{
+    font-size:10px;
+}
