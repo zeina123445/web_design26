@@ -1,3 +1,5 @@
+//validation
+
 let emailUser = document.querySelector('#emailUser');
 let emailError = document.querySelector('.text-danger');
 let signupForm = document.querySelector('#signupForm');

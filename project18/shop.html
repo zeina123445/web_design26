@@ -15,16 +15,11 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- my style -->
     <link rel="stylesheet" href="css/shop.css">
-    <link rel="stylesheet" href="css/account.css">
-    <link rel="stylesheet" href="css/home.css">
-    <link rel="stylesheet" href="css/footer.css">
-    <link rel="stylesheet" href="css/signin.css">
-    <link rel="stylesheet" href="css/product.css">
 </head>
 
 <body>
     <!-----------------blanner section----------------->
-    <section class="container rounded-4 bg-img ">
+    <section class="container rounded-4 bg-img " id="pro-page">
         <div class="row row-cols-1 justify-content-center align-items-center p-3 ">
             <div class="col text-center">
                 <h2 class="text-capitalize p-3 lh-1 fs-1 ">shop page</h2>
@@ -36,77 +31,396 @@
         </div>
     </section>
     <!-----------------products section----------------->
-    <section class="container">
-        <div class="row row-cols-md-2 row-cols-lg-4 py-3">
-            <div class="col">
-                <div class="card rounded-4  border-0">
-                    <img src="images/shop_1.jpg" class="h-50 card-img-top rounded-4" alt="...">
-                    <div class="card-body">
-                        <div class="icons fs-small">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+    <section class="container px-0 py-5 text-center">
+        <div class="row row-cols-1 row-cols-lg-2 justify-content-between ">
+            <div class="col ">
+                <div class="text-start accordion accordion-flush row row-cols-1 row-cols-lg-2 "
+                    id="accordionFlushExample">
+                    <div class="col">
+                        <label for="" class="text-uppercase pb-2 text-secondary fw-medium fs-6">categories</label>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="cat-filter-btn accordion-button collapsed shadow-none bg-body"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne"
+                                    aria-expanded="false" aria-controls="flush-collapseOne">
+                                    All products
+                                </button>
+                            </h2>
+                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+
+                                    <ul class="list-group shadow-sm">
+                                        <li class="list-group-item border-0 filter-cat-Item active bg-body-tertiary text-dark fw-bolder"
+                                            id="all-products"> all products</li>
+                                        <li class="list-group-item border-0 filter-cat-Item" id="living-room">living
+                                            room</li>
+                                        <li class="list-group-item border-0 filter-cat-Item" id="bedroom">bedroom</li>
+                                        <li class="list-group-item border-0 filter-cat-Item" id="bath-room">bath room
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
-                        <p class="card-text fw-bolder  fs-small">&dollar;199.00 <span
-                                class="ps-2 text-body-tertiary text-decoration-line-through">&dollar;150</span></p>
                     </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card rounded-4  border-0">
-                    <img src="images/shop_2.jpg" class="h-50 card-img-top rounded-4" alt="...">
-                    <div class="card-body">
-                        <div class="icons fs-small">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
+                    <div class="col gy-4 gy-lg-0">
+                        <label for="" class="text-uppercase pb-2 text-secondary fw-medium fs-6">prices</label>
+
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="price-filter-btn accordion-button collapsed shadow-none bg-body"
+                                    type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo"
+                                    aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    All prices
+                                </button>
+                            </h2>
+                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                data-bs-parent="#accordionFlushExample">
+                                <div class="accordion-body">
+                                    <ul class="list-group shadow-sm">
+                                        <li class="list-group-item border-0 filter-price-Item active bg-body-tertiary text-dark fw-bolder"
+                                            id="all-prices"> all prices</li>
+                                        <li class="list-group-item border-0 filter-price-Item " id="p-199">$199.00</li>
+                                        <li class="list-group-item border-0 filter-price-Item " id="p-300">$300.00</li>
+                                        <li class="list-group-item border-0 filter-price-Item " id="p-350">$350</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
-                        <p class="card-text fw-bolder  fs-small">&dollar;199.00 <span
-                                class="ps-2 text-body-tertiary text-decoration-line-through">&dollar;150</span></p>
-                    </div>
-                </div>
-            </div>
-              <div class="col">
-                <div class="card rounded-4  border-0">
-                    <img src="images/shop_1.jpg" class=" card-img-top rounded-4" alt="...">
-                    <div class="card-body">
-                        <div class="icons fs-small">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
-                        <p class="card-text fw-bolder  fs-small">&dollar;199.00 <span
-                                class="ps-2 text-body-tertiary text-decoration-line-through">&dollar;150</span></p>
-                    </div>
-                </div>
-            </div>
-              <div class="col">
-                <div class="card rounded-4  border-0">
-                    <img src="images/shop_2.jpg" class="card-img-top rounded-4" alt="...">
-                    <div class="card-body">
-                        <div class="icons fs-small">
-                            <i class="fa-solid fa-star "></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                            <i class="fa-solid fa-star"></i>
-                        </div>
-                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
-                        <p class="card-text fw-bolder  fs-small">&dollar;199.00 <span
-                                class="ps-2 text-body-tertiary text-decoration-line-through">&dollar;150</span></p>
                     </div>
                 </div>
             </div>
         </div>
+        <div class=" row row-cols-2 row-cols-md-2 row-cols-lg-4 py-3" id="products">
+            <div class="col bathroom-card price-199">
+                <div class="card rounded-4  border-0  product-card">
+                    <div class="position-relative">
+                        <img src="images/bathroom_1.png" class="card-img-top rounded-4" alt="...">
+                        <div class=" badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1me-1">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$199.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col  living-card price-300">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/living_2.png" class="card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2 me-1">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$300.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bathroom-card  price-350">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/bathroom_1.png" class=" card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$350.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col living-card price-199">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/living_1.jpg" class="card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 me-1">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40 "></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$199.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bed-card price-300">
+                <div class="card rounded-4  border-0  product-card">
+                    <div class="position-relative">
+                        <img src="images/bed_1.png" class="  card-img-top rounded-4" alt="...">
+
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 me-1">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$300.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bathroom-card price-350">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/bathroom_2.png" class="  card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$350.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col living-card price-300">
+                <div class="card rounded-4  border-0 product-card ">
+                    <div class="position-relative">
+                        <img src="images/living_2.png" class=" card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$300.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bed-card price-350">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/bed_2.png" class="card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$350.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col living-card price-199">
+                <div class="card rounded-4  border-0  product-card ">
+                    <div class="position-relative">
+                        <img src="images/living_1.jpg" class="  card-img-top rounded-4" alt="...">
+
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$199.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bathroom-card price-300">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/bathroom_2.png" class="  card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$300.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col bed-card price-350">
+                <div class="card rounded-4  border-0 product-card">
+                    <div class="position-relative">
+                        <img src="images/bed_1.png" class=" card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">brown chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$350.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$150</span></p>
+                    </div>
+                </div>
+            </div>
+            <div class="col living-card price-300">
+                <div class="card rounded-4  border-0 product-card ">
+                    <div class="position-relative">
+                        <img src="images/living_2.png" class="card-img-top rounded-4" alt="...">
+                        <div class="badges position-absolute start-0 top-0 mt-2 row row-cols-2  me-1 me-1 me-1 ">
+                            <h4 class="col"><span class="badge text-dark bg-light-subtle  shadow-sm">New</span></h4>
+                            <i class="col fa-regular fa-heart bg-light rounded-circle  p-2 ms-5 w-h-40"></i>
+                            <h4><span class="col badge bg-success bg-gradient m-0">-50%</span></h4>
+                        </div>
+                        <button
+                            class="btn btn-dark position-absolute bottom-0 start-50 w-75 translate-middle cart-btn">add
+                            to cart</button>
+                    </div>
+                    <div class="card-body">
+                        <div class="icons fs-small">
+                            <i class="fa-solid fa-star "></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <h5 class="card-title fw-semi-bolder fs-6 my-2 text-capitalize">green chair</h5>
+                        <p class="card-text fw-bolder  fs-small">$300.00 <span
+                                class="ps-2 text-body-tertiary text-decoration-line-through">$199</span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <button class="btn btn-outline-dark rounded-pill px-4" onclick="handleClick(event)">show more</button>
     </section>
     <!-- bootstrap js -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
@@ -114,7 +428,6 @@
         crossorigin="anonymous"></script>
     <!-- my js -->
     <script src="js/script.js"></script>
-    <script src="js/footer.js"></script>
 </body>
 
 </html>
